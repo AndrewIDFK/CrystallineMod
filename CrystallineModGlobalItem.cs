@@ -1,3 +1,7 @@
+using Microsoft.Xna.Framework;
+using Terraria;
+using Terraria.ModLoader;
+
 namespace CrystallineMod
 {
     public class CrystallineModGlobalItem : GlobalItem
