@@ -6,7 +6,15 @@ namespace CrystallineMod
 {
     public class CrystallineModGlobalItem : GlobalItem
     {
-		public override bool InstancePerEntity
+	public override bool InstancePerEntity
+        {
+            get
+            {
+                return true;
+            }
+        }
+	
+	public override bool CloneNewInstances
         {
             get
             {
