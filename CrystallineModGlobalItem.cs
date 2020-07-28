@@ -17,8 +17,8 @@ namespace CrystallineMod
             {
                 if (OverclockBuff == 0)
                 {
-					if (player.GetModPlayer<CrystallineModPlayer>().OverclockBuff == true)
-					{
+			if (player.GetModPlayer<CrystallineModPlayer>().OverclockBuff == true)
+			{
                         item.useTime -= 1;
                         item.useAnimation -= 1;
                         OverclockBuff = 1;
